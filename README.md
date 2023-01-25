@@ -2,7 +2,7 @@
 Lambda que recebe um evento para iniciar ou encerrar a quantidade de tarefas desejadas de um serviço ECS
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
 
 
 ![graphic_usage](https://github-readme-stats.vercel.app/api/top-langs/?username=rafawainer)
