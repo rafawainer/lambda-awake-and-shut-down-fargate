@@ -84,12 +84,6 @@ def lambda_handler(event, context):
     print(f"\nStart Key = {start_task}")
     stop_task = "rafawainer-s3-lambda-stopper"
     print(f"Stop Key = {stop_task}")
-
-    print(f"\nEvent Records -> {event['Records']}")
-    print(f"Event Records[s3] -> {event['Records'][0]['s3']}")
-    print(f"Event Records[s3][bucket] -> {event['Records'][0]['s3']['bucket']}")
-    print(f"Event Records[s3][bucket][name\ -> {event['Records'][0]['s3']['bucket']['name']}")
-
     s3_bucket_key = event['Records'][0]['s3']['bucket']['name']
     print(f"S3 Bucket Key = {s3_bucket_key}")
 
